@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color:#121212;
+}
+
+header {
+    display: flex;
+    background-color: #1e1e1e;
+    color: #bb86fc; /* roxinho neon */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+nav {
+    display: flex;
+    padding-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.link a{
+    color: #bb86fc;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.link a:hover{
+    filter: brightness(5);
+    transition: 300ms;
+    opacity: 0.3;
+}
+
+.logo{
+margin: 0;
+color:#bb86fc;
+padding-left: 20px;
+
+}
+
+.bloco{
+    text-align: center;
+    margin: 10px;
+    background-color: #1e1e1e;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 12px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .blocodiv{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 50px;
+    }
+
+    .blocoh, .blococ{
+        text-align: center;
+        margin: 10px;
+        background-color: #1e1e1e;
+        padding: 30px;
+        border-radius: 12px;
+        width: 30%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+section > div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+  }
+
+.rede{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1, h2, ul, p{
+    color:#e0e0e0;
+}
+
+.container li{
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.container p{
+    font-size: 20px;
+    ;
+    text-align: justify;
+    line-height: 2.0;
+    max-width: 900px;
+}
+.im1{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center 30%;
+}
+.im2{
+    width: 75px;
+    height: 75px;
+    
+}
+.im3{
+    width: 75px;
+    height: 75px;
+}
+
+.im2:hover{
+    width: 75px;
+    height: 75px;
+    filter: brightness(5);
+    transition: 300ms;
+    opacity: 0.3;
+}
+.im3:hover{
+    width: 75px;
+    height: 75px;
+    filter: brightness(2) invert(1);
+    transition:300ms;
+    opacity: 0.3;
+    
+}
+
+
+footer {
+    background-color: #1e1e1e;
+    color: #888;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+  
+}   
