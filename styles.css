@@ -10,7 +10,7 @@ body {
 header {
     display: flex;
     background-color: #1e1e1e;
-    color: #bb86fc; /* roxinho neon */
+    color: #bb86fc; 
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #333;
