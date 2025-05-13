@@ -47,7 +47,6 @@ padding-left: 150px;
 
 .bloco{
     text-align: center;
-    margin: 10px;
     background-color: #1e1e1e;
     padding: 30px;
     margin: 30px auto;
@@ -56,22 +55,16 @@ padding-left: 150px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
-    .blocodiv{
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-        margin-top: 50px;
-    }
-
-    .blocoh, .blococ{
-        text-align: center;
-        margin: 10px;
-        background-color: #1e1e1e;
-        padding: 30px;
-        border-radius: 12px;
-        width: 30%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
+.blococ{
+    text-align: center;
+    margin: 10px;
+    background-color: #1e1e1e;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 12px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 section > div{
     display: flex;
@@ -95,6 +88,7 @@ section > div{
 }
 h1, h2, ul, p{
     color:#e0e0e0;
+    
 }
 
 .container li{
@@ -145,8 +139,28 @@ h1, h2, ul, p{
     opacity: 0.3;
     
 }
-
-
+.c{
+    padding-bottom: 20px;
+}
+.s{
+    margin-bottom: 15px;
+}
+.bt{
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #a359fd;
+    color: #e0e0e0;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.bt:hover{
+    width: 75px;
+    height: 75px;
+    filter: brightness(1);
+    transition:300ms;
+    opacity: 0.3;
+}
 footer {
     background-color: #1e1e1e;
     color: #888;
